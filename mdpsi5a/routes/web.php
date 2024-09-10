@@ -6,3 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 //tes
+
+Route::get('/home', function () {
+    return view('home');
+});
